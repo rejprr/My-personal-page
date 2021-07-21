@@ -2,43 +2,45 @@
 <html> 
     <head>
        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-          <style>
-           body { 
-    font-family: "Open Sans", sans-serif;
-    background-color: rgb(206, 205, 201);
-}
-.obsah {
-    margin: 0;
-    position: absolute;
-    top: 48%;
-    right: 23.3%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    text-align: center;
-}
-.name {text-align: center;} .title {text-align: center;   font-size: 14px;}
-header {background-color: rgb(187, 184, 184); padding: 4px; position: absolute; top: 0px; left: 0px; width: 99.29%; text-align: center;}
-footer { 
-    margin: 0;
-    position: absolute;
-    bottom: 2px;
-    right:49%;
-}
-       </style>
        <title>rejpr</title>
+       <style>
+         body { 
+            font-family: "Open Sans", sans-serif;
+            background-color: rgb(206, 205, 201);
+         }
+        .obsah {
+            margin: 0;
+            position: absolute;
+            top: 48%;
+            right: 23.3%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            text-align: center;
+         }
+        .name {text-align: center;} .title {text-align: center;   font-size: 14px;}
+        img {
+            border-radius: 25px;
+         }
+         @media only screen and (max-width: 600px) {
+            .obsah {
+            margin: 0;
+            position: absolute;
+            top: 48%;
+            right: 15.3%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            text-align: center;
+         }
+         }
+       </style>
     </head>
     <body>
-       <header> 
-       <a href="https://github.com/rejprr"><img style="position: relative; top: 2px;" src="./github.png">  </a>
-    </header>
-     
-        <div class="obsah"> 
+       <div class="obsah"> 
+       <img src="./avatar.png">
        <span class="name"><h1>rejpr </h1></span>
        <span class="title">
-       <code>  I am a developer from Czech, dealing with web development and (not only) various small utilities
-        <br>  Here is my <a href="https://instagram.com/rejprr">Instagram</a>,  through which you can contact me, github is upstairs :)
-           </code>
- </span>
-       </div>
+       <code>  I am a developer from Czech, dealing with web development and (not only) various small utilities<br> Proponent of Open Source</code>
+       </span> </div>
+       <ul> <li> <a href="https://github.com/rejprr">Github</a> </li> <li> <a href="https://instagram.com/rejprr">Instagram</a> </li> <li><a href="mailto:rapper454@protonmail.com">Email</a></li> </ul>
     </body>
 </html>
